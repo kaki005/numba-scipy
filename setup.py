@@ -3,7 +3,7 @@ import versioneer
 
 
 # _install_requires = ["scipy>=0.16,<=1.11.0", "numba>=0.45"]
-
+_install_requires = ["scipy>=0.16", "numba"]
 
 metadata = dict(
     name="numba-scipy",
